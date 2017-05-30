@@ -1,0 +1,12 @@
+Value Chassis (\S+)
+Value Engine (.*)
+Value Software (.*)
+Value Image ([^"]*)
+Value Uptime (.*)
+
+Start
+  ^Dell Application Software Version: ${Software}
+  ^Dell Networking OS uptime is ${Uptime}
+  ^System Type: ${Chassis} -> Continue
+  ^Control Processor: ${Engine}
+  ^System image file is "${Image}"

@@ -1,0 +1,9 @@
+Value Unit (\d+)
+Value Type (\S+)
+Value SerialNumber (\w+)
+Value PartNumber (\w+)
+Value SvcTag (\S+)
+Value ExprsSvc ((\S+\s+){3}\S+)
+
+Start
+  ^(\s+|.\s+)${Unit}\s+${Type}\s+${SerialNumber}\s+${PartNumber}\s+\w+\s+\S+\s+\w+\s+${SvcTag}\s+${ExprsSvc} -> Record

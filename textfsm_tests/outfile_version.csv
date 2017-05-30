@@ -1,0 +1,3 @@
+| RouterID | LocalAS | RemoteAS | RemoteIP | Uptime | Received_V4 | Status |
+| 192.0.2.70 | 65550 | 65551 | 192.0.2.77 | 5w4d | 1 |  |
+| 192.0.2.70 | 65550 | 65552 | 192.0.2.78 | 5w4d | 10 |  |
